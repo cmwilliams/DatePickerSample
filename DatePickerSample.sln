@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatePickerSample", "DatePickerSample\DatePickerSample.csproj", "{14B73C34-1452-4766-8A0A-E7EA4B395C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatePickerSample.Droid", "Droid\DatePickerSample.Droid.csproj", "{509B7AF3-96FD-4C41-9A25-3E752A469F0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatePickerSample.UITests", "UITests\DatePickerSample.UITests.csproj", "{6FB69C88-4EE9-4D30-949F-8873A06E1611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14B73C34-1452-4766-8A0A-E7EA4B395C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B73C34-1452-4766-8A0A-E7EA4B395C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B73C34-1452-4766-8A0A-E7EA4B395C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B73C34-1452-4766-8A0A-E7EA4B395C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509B7AF3-96FD-4C41-9A25-3E752A469F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509B7AF3-96FD-4C41-9A25-3E752A469F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509B7AF3-96FD-4C41-9A25-3E752A469F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509B7AF3-96FD-4C41-9A25-3E752A469F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FB69C88-4EE9-4D30-949F-8873A06E1611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FB69C88-4EE9-4D30-949F-8873A06E1611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FB69C88-4EE9-4D30-949F-8873A06E1611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FB69C88-4EE9-4D30-949F-8873A06E1611}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.datepickersample">
+  <uses-sdk android:minSdkVersion="15" />
+  <application android:label="DatePickerSample" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="DatePickerSample.Droid" android:name="md593baf553ed36e46eebf0606a3502fbac.MainActivity" />
+    <activity android:label="Web Authenticator" android:name="md588920fb9403ed228b036d6919cddd329.FormAuthenticatorActivity" />
+    <activity android:label="Web Authenticator" android:name="md588920fb9403ed228b036d6919cddd329.WebAuthenticatorActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.datepickersample.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.datepickersample" />
+      </intent-filter>
+    </receiver>
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="DatePickerSample.Droid" android:name="com.companyname.datepickersample.TrialSplashScreen" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>

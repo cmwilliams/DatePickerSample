@@ -1,0 +1,9 @@
+C:\Users\mcwilliams.APPRIVER\Documents\Projects\DatePickerSample\UITests\bin\Debug\DatePickerSample.UITests.dll
+C:\Users\mcwilliams.APPRIVER\Documents\Projects\DatePickerSample\UITests\bin\Debug\DatePickerSample.UITests.pdb
+C:\Users\mcwilliams.APPRIVER\Documents\Projects\DatePickerSample\UITests\bin\Debug\nunit.framework.dll
+C:\Users\mcwilliams.APPRIVER\Documents\Projects\DatePickerSample\UITests\bin\Debug\Xamarin.UITest.dll
+C:\Users\mcwilliams.APPRIVER\Documents\Projects\DatePickerSample\UITests\bin\Debug\nunit.framework.xml
+C:\Users\mcwilliams.APPRIVER\Documents\Projects\DatePickerSample\UITests\bin\Debug\Xamarin.UITest.xml
+C:\Users\mcwilliams.APPRIVER\Documents\Projects\DatePickerSample\UITests\obj\Debug\DatePickerSample.UITests.csprojResolveAssemblyReference.cache
+C:\Users\mcwilliams.APPRIVER\Documents\Projects\DatePickerSample\UITests\obj\Debug\DatePickerSample.UITests.dll
+C:\Users\mcwilliams.APPRIVER\Documents\Projects\DatePickerSample\UITests\obj\Debug\DatePickerSample.UITests.pdb
