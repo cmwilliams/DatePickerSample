@@ -63,14 +63,12 @@ namespace DatePickerSample
 			//Load the important dates from Azure
 			loadButton.Clicked += async (s, e) => 
 			{
-				var importantDates = (from impDate in MobileService.GetTable<ImportantDate>()
-					orderby impDate.ImpDate
-					select new { 
-						ImpDate = impDate.ImpDate.ToString ("d"), 
-						impDate.Description
-					});
-						
-				var list = (await importantDates.ToListAsync());
+
+				var azureDates = MobileService.GetTable<ImportantDate>().OrderBy(x => x.ImpDate).Select(x => new {x.ImpDate, x.Description});
+
+				var importantDates = (await azureDates
+					.Select(x => new { ImpDate = x.ImpDate.ToString("d"), Description = Helper.FormatDayHelper(x.ImpDate, x.Description)})
+					.ToListAsync());
 
 
 				//Set up List View Template
@@ -80,7 +78,7 @@ namespace DatePickerSample
 				listView.ItemTemplate = template;
 
 				//Bind the dates to the list view
-				listView.ItemsSource = list;
+				listView.ItemsSource = importantDates;
 			};
 
 
